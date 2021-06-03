@@ -1,0 +1,41 @@
+
+.list-container {
+    height: 100%;
+    width: 30%;
+    min-width: 6.5rem;
+    max-width: 15rem;
+    padding-top: 1.5%;
+    background: black;
+    position: relative;
+}
+
+.list {
+    
+   width: calc(100%-5px);
+   height: 97.5%;
+    overflow-y: auto;
+    z-index: 4;
+    scrollbar-color:red black;
+    scrollbar-width: thin;
+    scroll-margin: 300px;
+    padding: 1.5%;
+}
+
+.list-item {
+    width: 100%;
+    max-width: 15rem;
+    height: 18vh;
+    min-height: 4rem;
+    max-height: 10rem;
+    margin-bottom: 2%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: whitesmoke;
+    font-weight: bold;
+    color: black;
+    font-size: 2vmax;
+    user-select: none;
+}

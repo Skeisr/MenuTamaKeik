@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
+.container {
+  width: 100%;
+  min-width: 230px;
   min-height: 100vh;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  z-index: -5;
+}
+
+.content-container{
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background: greenyellow;
+  z-index: 3;
+}
+
+.header{
+  width: 100%;
+  height: 20vh;
+  background: red;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  align-content: center;
+}
+
+.title {
+  height: min-content;
+  margin: auto;
   color: white;
+  font-weight: bold;
+  font-size: 7vmin;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-container {
+  width: 50vmin;
+  min-width: 9rem;
+  height: 23vmin;
+  min-height: 4rem;
+  padding-top: 1rem;
+  border: 4px solid black;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 0% 0% 60% 30% ;
+  z-index: 5;
+}
+.logo {
+  width: 85%;
+  height: auto;
+  margin-left: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 550px) {
+  .header{
+    width: 100%;
+    height: 10vh;
+    background: red;
+    display: flex;
+    position: relative;
+    align-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .content-container{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    position: relative;
+    background: greenyellow;
+    z-index: 3;
   }
 }
