@@ -30,8 +30,6 @@ class MenuBar extends React.Component {
                         {tamakeikMenu.map(t=><div className = "list-item">{t}</div>)}
                 </nav>
             </div>
-
-
         )
     }
 }
