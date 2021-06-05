@@ -1,6 +1,6 @@
 {
-  "name": "tamakeik-menu",
   "homepage": "https://skeisr.github.io/MenuTamaKeik/",
+  "name": "tamakeik-menu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
