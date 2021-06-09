@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/MenuTamaKeik/static/css/main.dc9b1471.chunk.css",
-    "main.js": "/MenuTamaKeik/static/js/main.c3ae904f.chunk.js",
-    "main.js.map": "/MenuTamaKeik/static/js/main.c3ae904f.chunk.js.map",
+    "main.css": "/MenuTamaKeik/static/css/main.c9e91236.chunk.css",
+    "main.js": "/MenuTamaKeik/static/js/main.392bebbf.chunk.js",
+    "main.js.map": "/MenuTamaKeik/static/js/main.392bebbf.chunk.js.map",
     "runtime-main.js": "/MenuTamaKeik/static/js/runtime-main.78f35667.js",
     "runtime-main.js.map": "/MenuTamaKeik/static/js/runtime-main.78f35667.js.map",
     "static/js/2.bb2ecf02.chunk.js": "/MenuTamaKeik/static/js/2.bb2ecf02.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.6edb35bc.chunk.js": "/MenuTamaKeik/static/js/3.6edb35bc.chunk.js",
     "static/js/3.6edb35bc.chunk.js.map": "/MenuTamaKeik/static/js/3.6edb35bc.chunk.js.map",
     "index.html": "/MenuTamaKeik/index.html",
-    "static/css/main.dc9b1471.chunk.css.map": "/MenuTamaKeik/static/css/main.dc9b1471.chunk.css.map",
+    "static/css/main.c9e91236.chunk.css.map": "/MenuTamaKeik/static/css/main.c9e91236.chunk.css.map",
     "static/js/2.bb2ecf02.chunk.js.LICENSE.txt": "/MenuTamaKeik/static/js/2.bb2ecf02.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.78f35667.js",
     "static/js/2.bb2ecf02.chunk.js",
-    "static/css/main.dc9b1471.chunk.css",
-    "static/js/main.c3ae904f.chunk.js"
+    "static/css/main.c9e91236.chunk.css",
+    "static/js/main.392bebbf.chunk.js"
   ]
 }
